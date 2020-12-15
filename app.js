@@ -1,7 +1,5 @@
+var btnTranslate=document.querySelector("#btn-translate");
 
-//input
-var username=prompt("enter your name");
-//processing
-var nameMessage="Welcome " +username;
-//output
-alert(nameMessage);
+btnTranslate.addEventListener("click",function clickEventHandler(){
+    console.log("clicked");
+})
