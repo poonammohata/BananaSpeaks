@@ -3,16 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BananaSpeaks</title>
+    <title>Component Library</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Speak with Banana</h1>
-    <textarea id="text-input" placeholder="enter your message here which you want to translate"></textarea>
-    <button id="btn-translate">Translate</button>
-    <p>translated text will be shown here 👇</p>
-    <div id="text-translated"></div>
-    <script src="app.js" type="text/javascript"></script>   
+    <header class="header">
+        <div class="header-section">
+            <h1 class="header-heading">Banana Speaks</h1>
+        </div>
+        <div class="container-center">
+            <img class="header-image" src="/images/minion.jpg" alt="image of minion">
+            <p class="header-para">Minion language is spoken by the minions in Despicable Me. The language is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal Studios.</p>
+        </div>
+    </header>
+
+    <section class="container">
+        <textarea 
+        id="text-input" 
+        placeholder="enter the text which you want to translate">
+        </textarea>
+        <button id="btn-translate">Translate</button>
+        <p>translated text will be shown here <i class="fa fa-hand-o-down"></i>
+        </p>
+        <div id="text-output">
+        </div>
+    </section>
+
+    <footer>
+        <ul class="list-no-bullet">
+            <li class="list-item-inline">
+                <a  class="link" href="https://github.com/poonammohata" target="_blank">
+                    <i class="fa fa-github " aria-hidden="true">
+                    </i>
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/poonam-mohata-a0aa04172/" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true">
+                    </i>
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/poonam_mohata" target="_blank">
+                    <i class="fa fa-twitter " aria-hidden="true">
+                    </i>
+                </a>       
+            </li>
+        </ul>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+    
+    
 </body>
 </html>
