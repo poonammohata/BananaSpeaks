@@ -1,6 +1,6 @@
 var btnTranslate=document.querySelector("#btn-translate");
 var textInput=document.querySelector("#text-input");
-var textTranslated=document.querySelector("#text-translated");
+var textTranslated=document.querySelector("#text-output");
 
 var url="https://api.funtranslations.com/translate/minion";
 
