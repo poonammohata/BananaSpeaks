@@ -63,7 +63,7 @@ textarea{
     width: 315px;
     height: 21vh;
     display: block;
-    padding: 1rem 0rem ;
+    padding: 1rem;
     box-sizing: border-box;
     border:2px solid var(--black);
     border-radius: 20px;
