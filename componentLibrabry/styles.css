@@ -5,28 +5,44 @@
     --medium-yellow:#FBBF24;
     --light-yellow:#FCD34D;
     --white:#F9FAFB;
+    --very-light-yellow:#FDE68A;
+    --gray-shadow-color:#1F2937;
+    --black:black;
+    
 }
-
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
-.header-section{
-    background-color: var(--dark-yellow);
+.container-center{
+    max-width: 400px;
     margin: 0 auto;
-    
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.list-no-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+}
+.link{
+    text-decoration: none;
+}
+
+/* header start */
+.header-section{
+    background-color: var(--light-yellow);  
 }
 .header-heading{
-    color: var(--white);
+    color:var(--black);
     margin: 0 auto;
     padding: 0.2rem;
     text-align: center;
     max-width: 400px;
-}
-.container-center{
-    max-width: 400px;
-    margin: 0 auto;
 }
 .header-image{
     max-width: 200px;
@@ -38,4 +54,63 @@ body{
     color: var(--dark-yellow);
     padding: 1rem;
     text-align: center;
+}
+/* header end */
+
+/* section start */
+textarea{
+    width: 315px;
+    height: 21vh;
+    display: block;
+    padding: 1rem;
+    box-sizing: border-box;
+    border:2px solid var(--black);
+    box-shadow: 3px 3px var(--gray-shadow-color);
+    background-color: var(--light-yellow);
+    margin: 1rem auto;
+}
+button{
+    display: block;
+    margin:1rem auto;
+    border-radius:20px;
+    border: 1px solid var(--dark-yellow);
+    box-shadow: 1px 1px var(--dark-yellow);
+
+    padding:0.5rem 1rem;
+    background-color: var(--light-yellow);
+    font-weight: bold;
+}
+#text-output{
+    width: 280px;
+    height: 10vh;
+    border: 2px solid var(--black);
+    padding: 1rem;
+    background-color: var(--light-yellow);
+    box-shadow: 3px 3px var(--gray-shadow-color);
+    overflow: auto;
+    margin: 1rem auto;
+}
+
+/* section end */
+
+/* footer */
+footer{
+    background-color: var(--light-yellow);
+    color: var(--black);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 4rem;
+}
+footer li{
+    padding: 0rem 1rem;   
+}
+footer li a{
+    color: black;
+    font-size: 1.5rem;
+}
+ul{
+    padding-inline-start: 0px;
+
 }
