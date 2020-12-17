@@ -58,13 +58,15 @@ body{
 /* header end */
 
 /* section start */
+
 textarea{
     width: 315px;
     height: 21vh;
     display: block;
-    padding: 1rem;
+    padding: 1rem 0rem ;
     box-sizing: border-box;
     border:2px solid var(--black);
+    border-radius: 20px;
     box-shadow: 3px 3px var(--gray-shadow-color);
     background-color: var(--light-yellow);
     margin: 1rem auto;
@@ -75,15 +77,20 @@ button{
     border-radius:20px;
     border: 1px solid var(--dark-yellow);
     box-shadow: 1px 1px var(--dark-yellow);
-
     padding:0.5rem 1rem;
     background-color: var(--light-yellow);
     font-weight: bold;
+}
+p{
+    margin:1rem auto;
+    color: var(--gray-shadow-color);
+    text-align: center;
 }
 #text-output{
     width: 280px;
     height: 10vh;
     border: 2px solid var(--black);
+    border-radius: 20px;
     padding: 1rem;
     background-color: var(--light-yellow);
     box-shadow: 3px 3px var(--gray-shadow-color);
