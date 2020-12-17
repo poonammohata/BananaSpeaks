@@ -62,7 +62,7 @@ textarea{
     width: 315px;
     height: 21vh;
     display: block;
-    padding: 1rem;
+    padding: 0rem 0.5rem;
     box-sizing: border-box;
     border:2px solid var(--black);
     box-shadow: 3px 3px var(--gray-shadow-color);
@@ -75,11 +75,12 @@ button{
     border-radius:20px;
     border: 1px solid var(--dark-yellow);
     box-shadow: 1px 1px var(--dark-yellow);
-
     padding:0.5rem 1rem;
     background-color: var(--light-yellow);
     font-weight: bold;
 }
+
+
 #text-output{
     width: 280px;
     height: 10vh;
